@@ -1,5 +1,5 @@
 x = [16 7];
-labels = {'Erkek', 'Kadın'};
+labels = {'Kadın', 'Erkek'};
 percentages = 100*x/ sum(x);
 labelStrings = strcat(labels, {' - '}, string(round(percentages,1)), {'%'});
 plottype = 'pie3';
